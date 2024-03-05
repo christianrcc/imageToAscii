@@ -58,10 +58,10 @@ public class imageToAscii {
             
             // scaled down image
             while (width > 500) { 
-                width = width / 2;
+                width = width / 1.2;
             }
             while (height > 500) {
-                height = height / 2;
+                height = height / 1.2;
             }
             scaledWidth = (int)Math.round(width); 
             scaledHeight = (int)Math.round(height);
